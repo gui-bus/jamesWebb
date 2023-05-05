@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Webb</title>
+
+    <!-- ?Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/webbFavicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- ?Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- ?CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- ?CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ?Animation on scroll lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body style="background-color: #000">
+    <!-- !Container 01 - Cover -->
+    <div class="container-fluid container00 container01" id="TOP">
+      <div class="container">
+        <!-- TODO Header -->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img
+                  src="./images/webbLogo.png"
+                  alt="logo James Webb"
+                  class="logoPc"
+                />
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas"
+                aria-controls="navbarOffcanvas"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="offcanvas offcanvas-end bg-dark text-light"
+                tabindex="-1"
+                id="navbarOffcanvas"
+                aria-labelledby="navbarOffcanvasLabel"
+              >
+                <div class="offcanvas-header">
+                  <a class="navbar-brand" href="index.html">
+                    <img
+                      src="./images/webbLogo.png"
+                      alt="logo James Webb"
+                      class="logoPc"
+                    />
+                  </a>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >JAMES WEBB</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="stages.html"
+                        >ÓRBITA</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="gallery.html"
+                        >GALERIA</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html#FAQ"
+                        >FAQ</a
+                      >
+                    </li>
+
+                    
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-light"
+                        href="#"
+                        id="galleryDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        DETALHES
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="galleryDropdown"
+                      >
+                        
+                        <li><a class="dropdown-item" href="contact.html">Contato</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <div
+        class="container text-center titleContent"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <p class="h1 titleCover">JAMES WEBB</p>
+        <p class="h5 subTitleCover">
+          O MAIOR E MAIS PODEROSO INSTRUMENTO DE OBSERVAÇÃO ESPACIAL JÁ
+          CONSTRUÍDO
+        </p>
+      </div>
+
+      <div class="container text-center">
+        <img src="./images/arrowDown.gif" alt="Arrow Down" class="arrowDown" />
+      </div>
+    </div>
+
+    <!-- !Container 02 - Description -->
+    <div class="container-fluid container00 container02">
+      <div
+        class="container titlePadding"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <p class="h5 titleSection">O que é o James Webb?</p>
+
+        <p class="h1 shortTitle subTitleSection">
+          James Webb é um telescópio espacial desenvolvido pela NASA em parceria
+          com a
+          <span class="hoverable" title="Agência Espacial Europeia">ESA</span> e
+          a
+          <span class="hoverable" title="Agência Espacial Canadense">CSA</span
+          >.<br /><br />
+          Ele foi projetado para ser o sucessor do telescópio espacial Hubble e
+          é
+          <span class="text-warning fw-bold"
+            >considerado o telescópio mais poderoso já construído pela
+            humanidade.</span
+          >
+          <br /><br />
+          O seu lançamento ocorreu no dia 25 de dezembro de 2021, em um foguete
+          Ariane 5.
+        </p>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/7nT7JGZMbtM', '_blank')"
+        >
+          ASSISTIR
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img src="./images/arrowDown.gif" alt="Arrow Down" class="arrowDown2" />
+      </div>
+    </div>
+
+    <!-- !Container 03 - Table -->
+    <div class="container-fluid container00 container03" >
+      <div
+        class="container titlePadding mt-5"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <div class="container table-margin" id="overViewPosition">
+          <p class="subTitleOvewView">JAMES WEBB</p>
+          <h3 class="titleOverView">VISÃO GERAL</h3>
+          <table class="table" id="widthTable">
+            <tbody>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  DATA DE LANÇAMENTO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  25 de Dezembro/2021
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  DURAÇÃO DA MISSÃO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  Inicial 5 Anos<span class="corEscuraTxt">
+                    / Objetivo 10 Anos</span
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  FOGUETE DE LANÇAMENTO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  Ariane 5
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  MASSA NO LANÇAMENTO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  6,200 kg
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  ÓRBITA
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  L2 ~1.5 Milhões de km da Terra
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  DIMENSÕES
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  10.66m Altura / 4.47m Largura / 6.5m Diâmetro
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  ESPELHO PRIMÁRIO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  18 segmentos de espelho de berílio revestidos em ouro.
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  ESCUDO SOLAR
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  22m x 12m <span class="corEscuraTxt"> / 5 Camadas</span>
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  FAIXA DE COMPRIMENTO DE ONDA
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  0,6 μm - 28 μm
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  TEMPERATURA DE OPERAÇÃO
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  James Webb -233°C / MIRI -266°C
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  CENTRO DE OPERAÇÕES
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                  Instituto de Ciência do Telescópio Espacial - Baltimore, EUA.
+                </td>
+              </tr>
+              <tr>
+                <td data-aos="fade-up-right" data-aos-duration="1000">
+                  INSTRUMENTOS
+                </td>
+                <td
+                  class="text-end"
+                  data-aos="fade-up-left"
+                  data-aos-duration="1000"
+                >
+                NIRCam / MIRI / NIRSpec
+                </td>
+              </tr>
+            </tbody>
+            <caption>
+              Dados: ESA/Webb
+            </caption>
+          </table>
+
+          <div class="alert bg-dark text-white text-center" role="alert" data-aos="fade-right" data-aos-duration="1000">
+            <div>
+              <p class="subTitleOvewView text-center fw-bold text-warning">NIRCam</p>
+              O NIRCam é um instrumento de imagem e espectroscopia na faixa infravermelha próxima, que é usado para observar os objetos celestes mais brilhantes e mais distantes no universo. Ele pode detectar a luz emitida por estrelas e galáxias formadas no início do universo, ajudando os astrônomos a entender a evolução do cosmos.
+            </div>
+          </div>
+
+          <div class="alert bg-dark text-white text-center" role="alert" data-aos="fade-left" data-aos-duration="1000">
+            <div>
+              <p class="subTitleOvewView text-center fw-bold text-warning">MIRI</p>
+              O MIRI é um instrumento que opera na faixa do infravermelho médio e fornece informações sobre a formação de estrelas e planetas, além de investigar a composição química de objetos celestes e detectar a presença de água e moléculas orgânicas em outros planetas.
+            </div>
+          </div>
+
+          <div class="alert bg-dark text-white text-center" role="alert" data-aos="fade-right" data-aos-duration="1000">
+            <div>
+              <p class="subTitleOvewView text-center fw-bold text-warning">NIRSpec</p>
+              O NIRSpec é um espectrógrafo que opera na faixa de infravermelho próximo, projetado para medir a luz de objetos celestes em diferentes comprimentos de onda e obter informações sobre a estrutura, composição e movimento desses objetos. Ele é usado para estudar a história da formação de estrelas e galáxias e a evolução do universo.
+            </div>
+          </div>
+          
+          
+
+          <figure id="wave-lenght" data-aos="fade-left" data-aos-duration="1000">
+            <img
+              class="img-fluid mt-5"
+              src="https://stsci-opo.org/STScI-01EVT0D97E3Y7SGG2KPY4B8EW0.png"
+              alt="James Webb Telescope"
+            />
+
+            <figcaption class="figure-caption mt-2">
+              Créditos: ESA/ATG medialab.
+            </figcaption>
+
+            <p
+              class="h1 imgTxt text-center mt-2 mb-5"
+              data-aos="fade-right"
+              data-aos-duration="1000"
+            >
+              O James Webb é capaz de observar comprimentos de onda de 0,6 a
+              28,5 micrômetros, uma faixa muito mais ampla do que a observada
+              pelo Telescópio Espacial Hubble. O infravermelho do James Webb é
+              uma ferramenta importante que permite a observação de objetos
+              celestes que emitem radiação nessa faixa de comprimento de onda,
+              permitindo o estudo de objetos distantes e a compreensão da
+              formação de galáxias, estrelas e planetas.
+            </p>
+          </figure>
+        </div>
+      </div>
+    </div>
+
+    <!-- !Container 04 - Mission -->
+    <div class="container-fluid container00 container04">
+      <div
+        class="container titlePadding"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <p class="h5 titleSection">Qual a sua missão?</p>
+
+        <p class="h1 shortTitle subTitleSection">
+          A missão do James Webb é
+          <span class="text-warning fw-bold"
+            >explorar o universo em comprimentos de onda infravermelhos</span
+          >
+          , o que significa que ele é capaz de ver objetos que são muito
+          distantes ou que estão escondidos em nuvens de poeira e gás.
+          <br /><br />
+          Com essa tecnologia, os astrônomos esperam obter
+          <span class="text-warning fw-bold"
+            >novas informações sobre a formação das primeiras estrelas e
+            galáxias</span
+          >
+          , a evolução do universo e a busca por planetas habitáveis em outras
+          estrelas.
+        </p>
+      </div>
+    </div>
+
+    <!-- !Container 05 - Info -->
+    <div class="container-fluid container00 container05">
+      <div
+        class="container titlePadding02"
+        data-aos="fade-right"
+        data-aos-duration="1200"
+      >
+        <p class="h5 titleSection">Principais características</p>
+
+        <div class="container mb-5">
+          <div class="row"> 
+            <div class="col-md-6">
+              <p class="h5 text-warning fw-bold">
+                Maior capacidade de observação
+              </p>
+              <p class="h1 shortTitle subTitleSection">
+                O James Webb é capaz de observar objetos celestes mais distantes
+                e com mais detalhes do que os telescópios atuais, devido a sua
+                grande capacidade de coleta de luz e resolução espacial.
+              </p>
+
+              <br /><br />
+
+              <p class="h5 text-warning fw-bold">Infravermelho</p>
+              <p class="h1 shortTitle subTitleSection">
+                O James Webb é especialmente adequado para observar no
+                infravermelho, o que permite observar estrelas e galáxias que
+                não podem ser observadas por telescópios convencionais que
+                operam no visível.
+              </p>
+
+              <br /><br />
+
+              <p class="h5 text-warning fw-bold">Posicionamento</p>
+              <p class="h1 shortTitle subTitleSection">
+                O James Webb foi posicionado em um ponto de Lagrange, um ponto
+                gravitacionalmente estável no espaço, a cerca de 1,5 milhões de
+                quilômetros da Terra. Essa posição permite que o telescópio
+                esteja em constante alinhamento com o Sol e a Terra, evitando a
+                interferência da luz e do calor terrestre.
+              </p>
+
+              <br><br>
+            </div>
+            <div class="col-md-6">
+              <div class="col-md-6">
+                <p class="h5 text-warning fw-bold">Grande espelho</p>
+                <p class="h1 shortTitle subTitleSection">
+                  Com um espelho de 6,5 metros de diâmetro. O espelho é feito de
+                  uma mistura de berílio e ouro, o que lhe permite coletar mais
+                  luz e detectar objetos mais fracos e distantes do universo. O
+                  James Webb é o mais poderoso telescópio espacial já lançado.
+                </p>
+
+                <br /><br />
+
+                <p class="h5 text-warning fw-bold">Resfriamento</p>
+                <p class="h1 shortTitle subTitleSection">
+                  Para melhorar a sensibilidade das observações no
+                  infravermelho, o James Webb tem um sistema de resfriamento a
+                  nitrogênio líquido, que mantem seguras suas partes sensíveis a
+                  temperaturas muito baixas (-233 °C).
+                </p>
+
+                <br /><br />
+
+                <p class="h5 text-warning fw-bold">Maior precisão</p>
+                <p class="h1 shortTitle subTitleSection">
+                  O James Webb tem uma precisão muito maior do que o Hubble. Ele
+                  pode observar objetos até 100 vezes mais fracos do que o
+                  Hubble pode detectar, o que significa que ele pode observar
+                  objetos ainda mais distantes e mais fracos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>                      
+
+      </div>
+    </div>
+
+    <!-- !Container 06 - Text -->
+    <div class="container-fluid container00 container06">
+      <div
+        class="container titlePadding"
+        data-aos="fade-down-right"
+        data-aos-duration="1200"
+      >
+        <p class="h1 mediumTitle font-big">
+          ESTAMOS CADA VEZ MAIS PRÓXIMOS DE ENTENDER OS MISTÉRIOS E SEGREDOS DO UNIVERSO!
+        </p>
+      </div>
+    </div>
+  
+    <!-- !FAQ -->
+    <div class="container-fluid container00" id="FAQ">
+      <div
+        class="container" data-aos="fade-left"
+        data-aos-duration="1200"
+        
+      >
+      <div class="container py-5">
+        <h1 class="text-center mb-5">FAQ</h1>
+        <div class="accordion accordion-flush" id="accordionFAQ" data-aos="fade-right"
+        data-aos-duration="1200">
+          <!-- ?01 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                Quais são os objetivos do James Webb?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">Webb terá como objetivo revelar o Universo oculto aos nossos olhos: estrelas envoltas em nuvens de poeira, moléculas nas atmosferas de outros mundos e a luz das primeiras estrelas e galáxias.</span>   <br><br> Com sua série de instrumentos de última geração, Webb empurrará as fronteiras de nosso conhecimento do Sistema Solar, de como as estrelas e os planetas se formam, e da formação e evolução da galáxia, de novas maneiras.
+                <br><br>
+                <ul class="bg-dark text-white">
+                  <p class="fw-bold">Os objetivos científicos de Webb visam contribuir para questões-chave, como:</p>
+                  <li>Onde e como os sistemas planetários se formam e evoluem?</li>
+                  <li>Como e onde as estrelas se formam e morrem e como suas mortes impactam o ambiente ao redor?</li>
+                  <li>Como era o Universo primitivo? Quando surgiram as primeiras estrelas e galáxias?</li>
+                  <li>Como as primeiras galáxias evoluíram ao longo do tempo? O que podemos aprender sobre a matéria escura e a energia escura?</li>
+                </ul>
+
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+              
+            </div>
+          </div>
+          <!-- ?02 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Quanto custou o Webb? Valeu a pena?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                O custo do Webb é dividido entre os parceiros internacionais do observatório - NASA, ESA e CSA, com o telescópio sendo construído pela NASA e a ESA e a CSA fornecendo os instrumentos. A ESA também contribuiu com o lançamento do Webb em um foguete Ariane 5. <br><br> <span class="fw-bold text-warning">O custo de construir, testar, lançar e comissionar o observatório, bem como cinco anos de operações científicas, é de aproximadamente US$ 10 bilhões.</span>  <br><br> O Webb não está necessariamente limitado a 5 anos de operações, e o observatório terá combustível suficiente para potencialmente operar por cerca de 20 anos.  O tempo gasto na construção do Webb é estimado em 40 milhões de horas no total, distribuídas entre milhares de engenheiros, cientistas e técnicos. 
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?03 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                O que é L2 e por que o Webb está orbitando lá?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                O Webb não esta em órbita ao redor da Terra, como o Telescópio Espacial Hubble, mas sim em órbita ao redor do Sol, a 1,5 milhões de quilômetros da Terra, no segundo ponto de Lagrange ou L2. <br><br>
+
+                Esse ponto é nomeado em homenagem a Joseph-Louis Lagrange que resolveu o "problema dos três corpos" - existe alguma configuração estável em que três corpos possam orbitar entre si e permanecer na mesma posição relativa um ao outro? Lagrange descobriu que existem cinco soluções para esse problema, e elas são conhecidas como pontos de Lagrange em homenagem ao seu descobridor. 
+
+                Para o Webb, os três corpos em questão são o Sol, a Terra e o próprio Webb. A atração gravitacional combinada do Sol e da Terra pode manter o Webb estável nesse ponto, e é necessário relativamente pouco combustível para manter a espaçonave perto de L2. <br><br>
+                
+                <span class="fw-bold text-warning">A órbita do Webb em L2 permite que o telescópio fique alinhado com a Terra à medida que ela se move ao redor do Sol. Isso permite que o grande escudo solar da espaçonave proteja o telescópio da luz e do calor do Sol, da Terra e da Lua. </span> <br><br> Como o Webb observa em comprimentos de onda infravermelhos - que são os comprimentos de onda do calor radiado -, o telescópio e seus instrumentos devem ser mantidos extremamente frios para evitar que sinais astronômicos muito fracos sejam afetados pelo calor radiado do telescópio. O ambiente frio e estável de temperatura do ponto L2 permitirá que o Webb faça as observações infravermelhas muito sensíveis necessárias para atingir seus objetivos científicos.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?04 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                O que limita a vida útil do Webb?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">A vida útil do Webb, de 5 a 12 anos, é limitada principalmente pela quantidade de combustível que ele carrega.</span> <br><br> Webb orbita um ponto no espaço conhecido como L2 - o segundo ponto de Lagrange do sistema Sol-Terra - que está aproximadamente a 1,5 milhão de km da Terra. Aqui, a combinação da atração gravitacional do Sol e da Terra permite que Webb fique alinhado com a Terra enquanto esta se move ao redor do Sol. Permanecer em órbita ao redor de L2 requer que Webb periodicamente acione seus motores, e uma vez que seu estoque de combustível acabar, a missão chegará ao fim. <br><br> Estimativas iniciais sugerem que as margens de combustível do observatório podem sustentar cerca de 20 anos de operações científicas.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?05 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Como o Webb aponta para um objeto astronômico?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">Para girar e apontar para objetos astronômicos no espaço, o Webb usa seis rodas de reação para girar o observatório inteiro em direção ao alvo de observação.</span> <br><br> As rodas de reação são volantes que armazenam momento angular. O momento angular é familiar em um exemplo da vida cotidiana - o momento angular das rodas de bicicleta é o que torna mais fácil equilibrar uma bicicleta em movimento do que em uma parada. Diminuir ou aumentar a velocidade de uma ou mais rodas de reação do Webb altera o momento angular total de todo o observatório e faz com que ele gire. <br><br> Outros observatórios espaciais, como o Telescópio Espacial Hubble da NASA / ESA, também usam rodas de reação para girar e apontar para alvos.
+
+                O Webb pode determinar sua orientação no espaço usando três rastreadores de estrelas e seis giroscópios, que medem para onde o observatório está apontando e a velocidade com que está girando.  Os rastreadores de estrelas e giroscópios são suficientemente precisos para permitir o "ponto de curso", o que significa que eles fornecem leituras precisas suficientes para manter o painel solar do Webb apontado para o Sol e a antena de alta ganho do observatório apontada para a Terra.
+                <br><br>      
+                No entanto, quando o Webb está realizando observações, ele precisa de um "ponto fino" mais preciso. Informações adicionais para o apontamento fino são fornecidas pelo Sensor de Guia Fino do Webb, que é usado para mover o espelho de direção fino do telescópio para estabilizar o feixe de luz que vem do telescópio e entra nos instrumentos científicos. <br><br>
+                <span class="fw-bold text-warning">Em conjunto, as rodas de reação, rastreadores de estrelas, giroscópios, Sensor de Guia Fino e espelho de direção fino do Webb fazem parte do sistema de controle de atitude do observatório (ACS).</span> <br><br> O ACS é o que permite que o Webb aponte precisamente para objetos astronômicos para que os instrumentos científicos tenham uma visão clara de seu alvo.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>      
+          <!-- ?06 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Veremos um buraco negro com o Webb?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">O estudo de buracos negros supermassivos faz parte dos objetivos científicos do Webb. </span><br><br> Em particular, o Webb irá observar como os buracos negros supermassivos e suas galáxias hospedeiras influenciam um ao outro. <br><br> Os dados do Webb também responderão às perguntas convincentes de como os buracos negros se formaram e cresceram no início, e qual influência eles tiveram na formação e evolução do Universo inicial.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?07 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Webb nos mostrará vida extraterrestre?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">Algumas das descobertas mais interessantes do Hubble foram inesperadas, e com uma sensibilidade 100 vezes maior que a do Hubble, ESPERAMOS que o Webb nos surpreenda.</span> <br><br> Graças às suas poderosas capacidades em comprimentos de onda infravermelhos, o Webb oferecerá uma visão única dos planetas externos de nosso magnífico Sistema Solar. <br><br> Olhando além, o Webb também estudará em detalhes as atmosferas de uma ampla diversidade de exoplanetas conhecidos. Ele procurará atmosferas semelhantes à da Terra e pelas assinaturas de substâncias importantes como metano, água, oxigênio, dióxido de carbono e moléculas orgânicas complexas, na esperança emocionante de encontrar os blocos de construção da vida. Fique atento às emocionantes descobertas do Webb nos anos vindouros!
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?08 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Como a Terra se comunica com o Webb? Qual é a velocidade de download de dados?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                <span class="fw-bold text-warning">O Webb enviará dados científicos e de engenharia para a Terra usando um transmissor de rádio de alta frequência.</span> <br><br> Grandes antenas de rádio que fazem parte da Rede de Espaço Profundo da NASA receberão os sinais e os encaminharão para o Centro de Operações e Ciência do Webb no Instituto de Ciência do Telescópio Espacial em Baltimore, Maryland, EUA. <br><br> A transferência de dados científicos será feita via link de ciência Ka-Band, com opções de 7, 14 ou 28 Mbps.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?09 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+              <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                Por que as imagens do Webb são processadas? Elas são editadas?
+              </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionFAQ">
+              <div class="accordion-body bg-dark text-white">
+                As imagens coloridas espetaculares que vemos neste site não são as imagens baixadas diretamente do Webb! Como todos os telescópios modernos, os detectores do Webb criam imagens em preto e branco, onde o brilho de um pixel representa a quantidade de luz que o atingiu. É muito mais útil para os astrônomos saber exatamente que tipo de luz foi vista, para que possam identificar que processo a produziu. <br><br> Então, em vez de apenas olhar para toda a luz, uma imagem é filtrada para um intervalo específico de comprimentos de onda, amplo ou estreito. Essas imagens filtradas podem ser mescladas para criar uma única imagem que contém a informação de brilho de cada uma. <br><br>
+                <span class="fw-bold text-warning">As imagens incríveis divulgadas pela ESA/Webb são criadas processando essas imagens em bruto do Webb. Se elas não fossem processadas, as imagens não pareceriam tão impressionantes e não mostrariam seus objetos astronômicos em detalhes merecidos.</span> <br><br>
+                 Combinar exposições do Webb tiradas em vários filtros para criar uma imagem colorida completa maximiza o poder do telescópio e faz uso total de seus instrumentos. <br><br>
+
+                O processamento de imagens é uma etapa necessária para o trabalho científico. É feito para limpar defeitos das imagens, como raios cósmicos e ruídos do detector, que obscurecem os dados valiosos. Ele pode ser feito para combinar várias exposições do mesmo alvo, criando uma imagem maior ou mais brilhante do que uma única exposição poderia fazer sozinha. Colorir a imagem também ajuda a destacar as características distintas de um alvo, especialmente aquelas que são facilmente vistas em uma faixa de comprimento de onda, mas menos visíveis em outra. Isso ajuda os cientistas a identificar o que estão observando e a comunicar seus resultados, tanto para o público quanto para outros cientistas.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+              </div>
+            </div>
+          </div>
+          <!-- ?10 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen">
+               <button class="accordion-button collapsed bg-dark text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                  O que acontecerá quando o Webb ficar sem combustível? Ele será trazido de volta para a Terra?
+               </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionFAQ">
+               <div class="accordion-body bg-dark text-white">
+                Quando o Webb quase esgotar suas reservas de combustível, os operadores da espaçonave na NASA comandarão a espaçonave a disparar seus motores e deixar o L2, movendo-se para uma órbita final ao redor do Sol. <br><br> <span class="fw-bold text-warning">O telescópio será então desativado, o que significa que todo o combustível restante será liberado para o espaço e as baterias serão descarregadas e desconectadas dos painéis solares.</span> <br><br>  Esse processo significa que não haverá mais energia armazenada a bordo do Webb e evitará que o telescópio represente um perigo para outros satélites. Não há planos para trazer o Webb de volta à Terra, e não há espaçonaves atuais ou planejadas capazes de recuperar o telescópio.
+                <br><br>
+                <span class="fw-lighter">Créditos: ESA/Webb</span>
+               </div>
+            </div>
+         </div>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+
+    <footer class="container-fluid footer">
+      <div class="container text-center">
+        <div class="container">
+          <a href="#TOP" class="btn btn-outline-light mt-5 p-3 text-center">
+            VOLTAR PARA O TOPO</i>
+          </a>
+          <div class="d-flex justify-content-center mt-5 footer-content">
+            <a
+              href="https://instagram.com/guibus_dev"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a
+              href="https://github.com/gui-bus"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gui-bus/"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a
+              href="https://twitter.com/guibus_dev"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="mailto:guibus.dev@gmail.com" class="text-white">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </div>
+          <div class="text-center p-3">
+            &copy; 2023 - Feito por Guilherme Bustamante.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ?Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ?Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

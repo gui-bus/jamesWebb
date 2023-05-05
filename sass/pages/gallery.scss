@@ -1,0 +1,184 @@
+.container00 {
+  &.container14 {
+    background-image: url(../images/home/Webb_Ariane.jpg);
+    background-position: center 0%;
+  }
+
+  &.container15 {
+    background-image: url(../images/gallery/carinanebula.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container16 {
+    background-image: url(../images/gallery/tarantula.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container17 {
+    background-image: url(../images/gallery/southern.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container18 {
+    background-image: url(../images/gallery/pillarsofcreation.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container19 {
+    background-image: url(../images/gallery/stephan.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container20 {
+    background-image: url(../images/gallery/wolf-rayet124.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container21 {
+    background-image: url(../images/gallery/wolf-rayet140.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container22 {
+    background-image: url(../images/gallery/NGC346.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container23 {
+    background-image: url(../images/gallery/NGC1365.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container24 {
+    background-image: url(../images/gallery/NGC1433.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container25 {
+    background-image: url(../images/gallery/NGC7469.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container26 {
+    background-image: url(../images/gallery/protostar.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container27 {
+    background-image: url(../images/gallery/ic1623.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container28 {
+    background-image: url(../images/gallery/cartwheel.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container29 {
+    background-image: url(../images/gallery/phantom.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container30 {
+    background-image: url(../images/gallery/dwarf.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container31 {
+    background-image: url(../images/gallery/galaxypair.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container32 {
+    background-image: url(../images/gallery/chameleon.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+  &.container33 {
+    background-image: url(../images/gallery/urano.jpg);
+    background-position: center 0%;
+    background-size: 100%;
+  }
+
+}
+.text-menu {
+  font-family: $cover-font;
+  font-size: 20px;
+  text-align: center;
+}
+.titlePadding {
+  padding-top: 100px;
+}
+.arrowDown2 {
+  display: inline-block;
+  width: 120px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.carousel-caption {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin: 0;
+}
+
+.carousel-caption .fonte {
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 750px) {
+  .titlePadding {
+    padding-top: 310px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  .t-center {
+    text-align: center;
+  }
+  .t-center2 {
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .b-center {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .arrowDown3 {
+    display: inline-block;
+    width: 120px;
+    margin: 20px 0;
+  }
+}

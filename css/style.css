@@ -1,0 +1,463 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.8rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d49139;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #000;
+}
+
+::selection {
+  color: #000;
+  background-color: #d8d8d8;
+}
+
+.logoPc {
+  width: 150px;
+  margin-left: 20px;
+  margin-right: 35px;
+}
+
+.header {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  gap: 15px;
+}
+
+.navbar-nav a {
+  position: relative;
+}
+
+.navbar-nav a:hover {
+  color: #b9b9b9;
+}
+
+.navbar-nav a:before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-nav a:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.navbar-nav a:hover:after {
+  visibility: hidden;
+}
+
+.hoverable {
+  cursor: help; /* muda o cursor do mouse para uma mãozinha indicando que o elemento é clicável */
+  text-decoration: underline; /* sublinha o texto para indicar que ele é clicável */
+}
+
+.titleCover {
+  font-size: 100px;
+  font-family: "Oswald", "Montserrat", sans-serif;
+}
+
+.subTitleCover {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text-warning {
+  font-family: "Montserrat", sans-serif;
+}
+
+.titleSection {
+  font-size: 42px;
+}
+
+.subTitleSection {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.imgTxt {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.shortTitle {
+  width: 500px;
+  margin-bottom: -30px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: -30px;
+}
+
+.font-big {
+  font-size: 48px;
+  font-family: "Oswald", "Montserrat", sans-serif;
+}
+
+.table-margin {
+  margin-top: -100px;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.titlePadding02 {
+  padding-top: 100px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 120px;
+  margin-top: 50px;
+}
+
+.arrowDown2 {
+  display: inline-block;
+  width: 120px;
+  margin-top: 175px;
+}
+
+#button {
+  padding: 15px 35px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+  background-color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.footer-content {
+  margin-top: 25px;
+}
+
+a:hover .fab,
+a:hover .fas {
+  color: #b9b9b9;
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+}
+
+.text-end {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.corEscuraTxt {
+  font-size: 16px;
+  font-weight: 300;
+  color: #868686;
+}
+
+@media screen and (max-width: 750px) {
+  .titleCover {
+    font-size: 90px;
+    text-align: center;
+  }
+  .subTitleCover {
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .titleSection {
+    font-size: 38px;
+  }
+  .subTitleSection {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .shortTitle {
+    width: 300px;
+    margin-bottom: -30px;
+  }
+  .mediumTitle {
+    width: 335px;
+    margin-bottom: -30px;
+  }
+}
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+    margin-left: -15px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+  .subTitleSection {
+    font-size: 6px;
+    font-weight: 300;
+  }
+}
+.container00.container01 {
+  background-image: url(../images/home/Webb.png);
+  background-position: center 20%;
+}
+.container00.container02 {
+  background-image: url(../images/home/WebbAriane_5.jpg);
+  background-position: center 20%;
+}
+.container00.container03 {
+  background-image: url();
+}
+.container00.container04 {
+  background-image: url(../images/home/tarantula_nebula.jpg);
+}
+.container00.container06 {
+  background-image: url(../images/gallery/carinanebula.jpg);
+}
+.container00.container07 {
+  background-image: url(../images/home/Webb_Ariane.jpg);
+  background-position: center 0%;
+}
+.container00.container08 {
+  background-image: url(../images/home/Webb_Fuel.png);
+  background-position: center 0%;
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.font-sm {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.container00.container07 {
+  background-image: url(../images/home/Webb_stages.jpeg);
+  background-position: center 40%;
+}
+.container00.container08 {
+  background-image: url(../images/home/Webb_transport01.jpg);
+  background-position: center 70%;
+}
+.container00.container09 {
+  background-image: url(../images/home/Webb_transport02.jpg);
+  background-position: center 30%;
+}
+.container00.container10 {
+  background-image: url(../images/home/Webb_transport03.jpg);
+}
+.container00.container11 {
+  background-image: url(../images/home/Webb_transport04.jpg);
+  background-position: center 30%;
+}
+.container00.container12 {
+  background-image: url(../images/home/Webb_Fuel.png);
+  background-position: center 0%;
+}
+
+.container00.container14 {
+  background-image: url(../images/home/Webb_Ariane.jpg);
+  background-position: center 0%;
+}
+.container00.container15 {
+  background-image: url(../images/gallery/carinanebula.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container16 {
+  background-image: url(../images/gallery/tarantula.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container17 {
+  background-image: url(../images/gallery/southern.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container18 {
+  background-image: url(../images/gallery/pillarsofcreation.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container19 {
+  background-image: url(../images/gallery/stephan.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container20 {
+  background-image: url(../images/gallery/wolf-rayet124.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container21 {
+  background-image: url(../images/gallery/wolf-rayet140.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container22 {
+  background-image: url(../images/gallery/NGC346.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container23 {
+  background-image: url(../images/gallery/NGC1365.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container24 {
+  background-image: url(../images/gallery/NGC1433.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container25 {
+  background-image: url(../images/gallery/NGC7469.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container26 {
+  background-image: url(../images/gallery/protostar.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container27 {
+  background-image: url(../images/gallery/ic1623.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container28 {
+  background-image: url(../images/gallery/cartwheel.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container29 {
+  background-image: url(../images/gallery/phantom.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container30 {
+  background-image: url(../images/gallery/dwarf.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container31 {
+  background-image: url(../images/gallery/galaxypair.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container32 {
+  background-image: url(../images/gallery/chameleon.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+.container00.container33 {
+  background-image: url(../images/gallery/urano.jpg);
+  background-position: center 0%;
+  background-size: 100%;
+}
+
+.text-menu {
+  font-family: "Oswald", "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.titlePadding {
+  padding-top: 100px;
+}
+
+.arrowDown2 {
+  display: inline-block;
+  width: 120px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.carousel-caption {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+  margin: 0;
+}
+
+.carousel-caption .fonte {
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media screen and (max-width: 750px) {
+  .titlePadding {
+    padding-top: 310px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .t-center {
+    text-align: center;
+  }
+  .t-center2 {
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  .b-center {
+    display: flex;
+    margin: 0 auto;
+  }
+  .arrowDown3 {
+    display: inline-block;
+    width: 120px;
+    margin: 20px 0;
+  }
+}
+body {
+  overflow-x: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>James Webb - Galeria</title>
+
+    <!-- ?Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/webbFavicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- ?Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- ?CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- ?CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ?Animation on scroll lib -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body style="background-color: #000">
+    <!-- !Container 14 - Cover -->
+    <div class="container-fluid container00 container14" id="TOP">
+      <div class="container">
+        <!-- TODO Header -->
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img
+                  src="./images/webbLogo.png"
+                  alt="logo James Webb"
+                  class="logoPc"
+                />
+              </a>
+
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#navbarOffcanvas"
+                aria-controls="navbarOffcanvas"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div
+                class="offcanvas offcanvas-end bg-dark text-light"
+                tabindex="-1"
+                id="navbarOffcanvas"
+                aria-labelledby="navbarOffcanvasLabel"
+              >
+                <div class="offcanvas-header">
+                  <a class="navbar-brand" href="index.html">
+                    <img
+                      src="./images/webbLogo.png"
+                      alt="logo James Webb"
+                      class="logoPc"
+                    />
+                  </a>
+                  <button
+                    type="button"
+                    class="btn-close text-reset"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html"
+                        >JAMES WEBB</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="stages.html"
+                        >ÓRBITA</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="gallery.html"
+                        >GALERIA</a
+                      >
+                    </li>
+
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="index.html#FAQ"
+                        >FAQ</a
+                      >
+                    </li>
+
+                    
+
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle text-light"
+                        href="#"
+                        id="galleryDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        DETALHES
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="galleryDropdown"
+                      >
+                        
+                        <li><a class="dropdown-item" href="contact.html">Contato</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <div
+        class="container text-center titleContent"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <p class="h1 titleCover">GALERIA</p>
+        <p class="h5 subTitleCover mt-1">
+          AS MELHORES IMAGENS E VÍDEOS DO INCRÍVEL JAMES WEBB
+        </p>
+      </div>
+
+      <div class="container text-center">
+        <img src="./images/arrowDown.gif" alt="Arrow Down" class="arrowDown" />
+      </div>
+    </div>
+
+    <!-- !Menu nav -->
+    <div class="container-fluid text-center">
+      <div class="input-group mt-3 mb-3">
+        <label class="input-group-text" for="inputGroupSelect01"
+          >Navegação</label
+        >
+        <select
+          class="form-select bg-dark text-light"
+          id="inputGroupSelect01"
+          onchange="location = this.value;"
+        >
+          <option value="" selected disabled>Selecione...</option>
+          <option value="#01">CARINA NEBULA</option>
+          <option value="#02">TARANTULA NEBULA</option>
+          <option value="#03">SOUTHERN RING NEBULA</option>
+          <option value="#04">PILLARS OF CREATION</option>
+          <option value="#05">STEPHAN'S QUINTET</option>
+          <option value="#06">WOLF-RAYET 124</option>
+          <option value="#07">WOLF-RAYET 140</option>
+          <option value="#08">NGC 346</option>
+          <option value="#09">NGC 1365</option>
+          <option value="#10">NGC 1433</option>
+          <option value="#11">NGC 7469</option>
+          <option value="#12">PROTOSTAR L1527</option>
+          <option value="#13">IC 1623</option>
+          <option value="#14">CARTWHEEL GALAXY</option>
+          <option value="#15">PHANTOM GALAXY</option>
+          <option value="#16">DWARF GALAXY WLM</option>
+          <option value="#17">GALAXY PAIR VV 191</option>
+          <option value="#18">MOLECULAR CLOUD CHAMELEON I</option>
+          <option value="#19">URANO</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- !Container 15 - CARINA -->
+    <div class="container-fluid container00 container15" id="01">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          CARINA NEBULA
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A Carina Nebula é uma região de formação estelar localizada na
+          constelação de Carina, na Via Láctea. <br /><br />
+          É uma das maiores e mais brilhantes nebulosas de emissão conhecidas,
+          com cerca de 300 anos-luz de diâmetro e aproximadamente 7.500 anos-luz
+          de distância da Terra. <br /><br />
+          A nebulosa é o resultado da intensa atividade de formação estelar,
+          onde jovens estrelas emitem radiação ultravioleta que ioniza o gás e
+          poeira circundantes, criando uma variedade de cores e formas
+          impressionantes. <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, J. DePasquale (STScI).</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/carinanebula3/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/t1zfaWwqEEs', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 16 - TARANTULA -->
+    <div class="container-fluid container00 container16" id="02">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          TARANTULA NEBULA
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A Nebulosa Tarântula é uma região de formação estelar localizada na
+          Grande Nuvem de Magalhães, uma galáxia satélite da Via Láctea.
+          <br /><br />
+          É uma das regiões mais ativas de formação estelar conhecidas, com
+          muitas estrelas jovens, gigantes vermelhas e supernovas. <br /><br />É
+          também uma das nebulosas mais brilhantes do céu noturno, sendo visível
+          a olho nu em locais com pouca poluição luminosa. <br /><br />
+          <span class="fw-medium">Créditos: NASA, ESA, CSA, STScI. </span>
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2212a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/H0TlnboEmd8', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 17 - Southern Ring Nebula -->
+    <div class="container-fluid container00 container17" id="03">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          SOUTHERN RING NEBULA
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A Nebulosa do Anel do Sul é uma nebulosa planetária localizada a cerca
+          de 2 mil anos-luz de nós. <br /><br />
+          Ela foi descoberta em 1835 pelo astrônomo John Herschel e desde então,
+          o objeto foi extensivamente estudado por pesquisadores de todo o
+          planeta. <br /><br />
+          A nebulosa é conhecida informalmente como “Eight-Burst Nebula” ou
+          “Caldwell 74” e ela tem quase meio ano-luz de diâmetro e é uma nuvem
+          de gás em expansão envolvendo uma estrela moribunda. <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, the Webb ERO Production Team</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2207b/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/BMtxWfCeeTc', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 18 - Pillars of Creation -->
+    <div class="container-fluid container00 container18" id="04">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          PILLARS OF CREATION
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          Os Pilares da Criação são uma estrutura de gás e poeira cósmica
+          localizada na nebulosa da Águia, a cerca de 7.000 anos-luz da Terra.
+          <br /><br />
+          A estrutura consiste em três colunas de gás e poeira, cada uma delas
+          com cerca de 4 anos-luz de comprimento. Foi fotografada pela primeira
+          vez em 1995 pelo Telescópio Espacial Hubble e se tornou uma das
+          imagens mais famosas da astronomia. <br /><br />
+          Acredita-se que a formação de estrelas esteja ocorrendo dentro dos
+          pilares, e a estrutura é um exemplo de como a matéria se aglomera para
+          formar novas estrelas e sistemas planetários. <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, J. DePasquale (STScI), A. Pagan
+            (STScI), A. M. Koekemoer (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/pillarsofcreation_composite/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/5T5JhTLunTQ', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 19 - Stephan's Quintet -->
+    <div class="container-fluid container00 container19" id="05">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          STEPHAN'S QUINTET
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          Stephan’s Quintet é um grupo de cinco galáxias localizado na
+          constelação de Pegasus. <br /><br />
+          Quatro dessas galáxias formam o primeiro grupo compacto de galáxias já
+          descoberto. O grupo foi descoberto pelo astrônomo francês Édouard
+          Stephan em 1877 no Observatório de Marselha. <br /><br />
+          O grupo é o mais estudado de todos os grupos compactos de galáxias.
+          <br /><br />
+          <span class="fw-medium">Créditos: NASA, ESA, CSA, and STScI</span>
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2208a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/WIWYov-41ZM', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 20 - Wold Rayet  124 -->
+    <div class="container-fluid container00 container20" id="06">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          WOLF-RAYET 124
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          Wolf-Rayet 124 é uma estrela na constelação de Sagitta cercada por uma
+          nebulosa anelar conhecida como M1-67. <br /><br />
+          A estrela possui cerca de 30 vezes a massa do Sol e já liberou mais de
+          10 vezes a massa do Sol só em material que forma as cascas ao seu
+          redor. <br /><br />
+          Ela está a 15 mil anos-luz de distância da Terra. A estrela está perto
+          de entrar na fase de supernova que significa, na verdade, o processo
+          anterior à morte da estrela. <br /><br />
+          <span class="fw-medium"
+            >Créditos:NASA, ESA, CSA, STScI, J. DePasquale (STScI).</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2307a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+        
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/2oFmouRSM0g', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 21 - Wold Rayet 140 -->
+    <div class="container-fluid container00 container21" id="07">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          WOLF-RAYET 140
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A Wolf-Rayet 140 é uma estrela binária localizada a cerca de 7.900
+          anos-luz da Terra, na constelação de Cygnus. É conhecida por ser uma
+          das estrelas mais luminosas e massivas da Via Láctea. <br /><br />
+          A estrela principal é uma Wolf-Rayet de classe WN8h, o que significa
+          que ela está em um estágio evolutivo avançado e perdeu uma grande
+          quantidade de massa devido à forte emissão de ventos estelares.
+          <br /><br />
+          A estrela companheira é uma estrela massiva de tipo O, que orbita em
+          torno da estrela principal a cada 8,6 anos. A interação entre as duas
+          estrelas causa a emissão de raios-X, raios gama e outras formas de
+          radiação, bem como a formação de uma nebulosa ao redor da estrela.
+          <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, JPL-Caltech.</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/WR140a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/IP_JujY7rlI', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 22 - NGC 346 -->
+    <div class="container-fluid container00 container22" id="08">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          NGC 346
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          NGC 346 é uma nebulosa de emissão localizada na Pequena Nuvem de
+          Magalhães, uma galáxia anã próxima à Via Láctea. <br /><br />
+          A nebulosa é um berçário estelar ativo, com centenas de estrelas
+          jovens e quentes nascendo em seu interior. <br /><br />
+          O aglomerado estelar principal da nebulosa, conhecido como Hodge 301,
+          é composto por cerca de 50 estrelas massivas e é um dos mais jovens já
+          observados na Pequena Nuvem de Magalhães.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, A. Pagan (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2301a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/msg13lHhbAI', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 23 - NGC 1365 -->
+    <div class="container-fluid container00 container23" id="09">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          NGC 1365
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          NGC 1365 é uma galáxia espiral barrada localizada na direção da
+          constelação de Fornax. A galáxia foi descoberta em 2 de Setembro de
+          1826 por James Dunlop. <br /><br />
+          Astrônomos pensam que a barra proeminente de NGC 1365 desempenha um
+          papel crucial na evolução da galáxia, atraindo gás e poeira em um
+          redemoinho de formação estelar e alimentando material no buraco negro
+          central. <br /><br />
+          NGC 1365 tem um diâmetro de aproximadamente 220.000 anos-luz, mais que
+          o dobro da Via Láctea.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, J. Lee (NOIRLab), A. Pagan (STScI)
+          </span>
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2306e/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/XVcfi7nQptc', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 24 - NGC 1433 -->
+    <div class="container-fluid container00 container24" id="10">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          NGC 1433
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          NGC 1433 é uma galáxia espiral barrada localizada na direção da
+          constelação de Horologium. A galáxia NGC 1433 foi descoberta em 28 de
+          Setembro de 1826 por James Dunlop e é uma galáxia com estrutura de
+          anel duplo. <br /><br />
+          NGC 1433 está a uma distância de 46 milhões de anos-luz da Terra e
+          está sendo estudada como parte de um levantamento de 50 galáxias
+          próximas conhecido como Legacy ExtraGalactic UV Survey. <br /><br />
+          Ela possui um jato de material fluindo para longe do buraco negro
+          central da galáxia que se estende por 150 anos-luz.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, J. Lee (NOIRLab), A. Pagan (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2306a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/XVcfi7nQptc', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 25 - NGC 7469 -->
+    <div class="container-fluid container00 container25" id="11">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          NGC 7469
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          NGC 7469 é uma galáxia espiral localizada a cerca de 200 milhões de
+          anos-luz de distância na direção da constelação de Pegasus.
+          <br /><br />
+          É uma galáxia Seyfert, o que significa que possui um núcleo galáctico
+          ativo e brilhante alimentado por um buraco negro supermassivo.
+          <br /><br />
+          NGC 7469 tem uma estrutura complexa com braços espirais e uma barra
+          central. A galáxia também é conhecida por suas propriedades de
+          formação estelar, com regiões de intensa formação estelar sendo
+          encontradas ao longo de seus braços espirais. <br /><br />
+          <span class="fw-medium"
+            >Créditos: ESA/Webb, NASA & CSA, L. Armus, A. S. Evans</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/potm2212a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/yDjwYF6f3vo', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 26 - Protostar L1527 -->
+    <div class="container-fluid container00 container26" id="12">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          PROTOSTAR L1527
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A protostar L1527 é um objeto celeste localizado na constelação de
+          Taurus, a cerca de 450 anos-luz da Terra. <br /><br />
+          É considerada uma das protostars mais jovens e mais próximas do nosso
+          sistema solar, e sua idade é estimada em cerca de 300.000 anos.
+          <br /><br />
+          Acredita-se que a L1527 esteja passando por uma fase de intensa
+          atividade em sua formação estelar e que esteja evoluindo para uma
+          estrela de baixa massa, semelhante ao Sol.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, J. DePasquale (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2219a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/kCNVBykGB1s', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 27 - IC 1623 -->
+    <div class="container-fluid container00 container27" id="13">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          IC 1623
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          IC 1623 é um par entrelaçado de galáxias interagindo localizado na
+          constelação de Cetus, a cerca de 270 milhões de anos-luz da Terra.
+          <br /><br />
+          Essas duas galáxias estão colidindo em um processo conhecido como
+          fusão galáctica, o que desencadeou um surto frenético de formação
+          estelar conhecido como uma "starburst". <br /><br />
+          A formação estelar está ocorrendo em uma taxa mais de vinte vezes
+          maior do que a taxa de formação estelar da Via Láctea. <br /><br />
+          <span class="fw-medium"
+            >Créditos: ESA/Webb, NASA & CSA, L. Armus & A. Evans
+            Acknowledgement: R. Colombari</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/potm2210a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/YRWHeNWEl0Y', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 28 - Cartwheel Galaxy -->
+    <div class="container-fluid container00 container28" id="14">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          CARTWHEEL GALAXY
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A galáxia Carthwheel é uma galáxia em forma de anel localizada a cerca
+          de 500 milhões de anos-luz da Terra, na constelação de Sculptor.
+          <br /><br />
+          Ela foi formada há cerca de 100 milhões de anos atrás devido a uma
+          colisão entre duas galáxias. A força da colisão criou ondas de choque
+          que comprimiram o gás e poeira interestelares, desencadeando uma
+          intensa formação de estrelas na região do anel. <br /><br />
+          A galáxia Carthwheel é uma das mais estudadas pelos astrônomos devido
+          à sua aparência incomum e sua importância na compreensão da evolução
+          das galáxias.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, J. Lee (NOIRLab), A. Pagan (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2211a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/bfAjQX-eapc', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 29 - Phantom Galaxy -->
+    <div class="container-fluid container00 container29" id="15">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          PHANTOM GALAXY
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A galáxia fantasma é uma galáxia anã extremamente difusa e pálida que
+          orbita a galáxia espiral NGC 1052-DF2, localizada a cerca de 65
+          milhões de anos-luz da Terra. <br /><br />
+          A galáxia fantasma é tão difusa que é difícil discernir suas estrelas
+          individualmente, levando a questões sobre a origem e evolução dessas
+          galáxias de baixa luminosidade. <br /><br />
+          Alguns cientistas acreditam que a galáxia fantasma pode ser a primeira
+          galáxia conhecida composta quase inteiramente de matéria escura, uma
+          forma misteriosa de matéria que não interage com a luz e só pode ser
+          detectada por seus efeitos gravitacionais.<br /><br />
+          <span class="fw-medium">
+            Créditos: ESA/Webb, NASA & CSA, J. Lee and the PHANGS-JWST Team.
+            Acknowledgement: J. Schmidt</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/potm2208a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/GY_GgDr_AR4', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 30 - Dwarf Galaxy WLM -->
+    <div class="container-fluid container00 container30" id="16">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          DWARF GALAXY WLM
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          Dwarf Galaxy WLM é uma galáxia anã irregular localizada na constelação
+          de Cetus, a cerca de 3 milhões de anos-luz da Terra. <br /><br />
+          Ela tem um diâmetro de cerca de 8.000 anos-luz e contém cerca de um
+          bilhão de estrelas, sendo uma das galáxias anãs mais próximas da Via
+          Láctea. WLM tem uma baixa taxa de formação estelar e uma população
+          estelar antiga, o que sugere que ela se formou há muito tempo atrás.
+          <br /><br />
+          Ela é conhecida por ter uma grande quantidade de matéria escura, que
+          representa cerca de 90% de sua massa total, e pode conter pistas sobre
+          a natureza da matéria escura.<br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, STScI, and K. McQuinn , A. Pagan
+            (STScI).</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/WLMb/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/h5PYmWIgrX8', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 31 - Galaxy Pair VV 191 -->
+    <div class="container-fluid container00 container31" id="17">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          GALAXY PAIR VV 191
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          O par de galáxias VV 191 é uma galáxia interagente composta por duas
+          galáxias espirais em processo de fusão localizadas a cerca de 500
+          milhões de anos-luz da Terra, na constelação de Boötes.
+          <br /><br />Essas galáxias estão envolvidas em um intenso processo de
+          formação estelar. <br /><br />
+          A interação gravitacional entre as galáxias está distorcendo suas
+          formas e criando várias regiões de intensa formação estelar, bem como
+          jatos de gás e poeira que se estendem por milhares de anos-luz.
+          <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, Rogier Windhorst, William Keel , Stuart
+            Wyithe , JWST PEARLS Team, Alyssa Pagan (STScI).</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/VV191a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/Pw38-F1KVVM', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 32 - Molecular Cloud Chameleon I -->
+    <div class="container-fluid container00 container32" id="18">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          MOLECULAR CLOUD CHAMELEON I
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          A Nuvem Molecular Chameleon I é uma grande nuvem de gás e poeira
+          interestelar localizada a cerca de 600 anos-luz da Terra, na
+          constelação do Camaleão. <br /><br />
+          É uma das maiores nuvens moleculares conhecidas, estendendo-se por
+          cerca de 100 anos-luz no céu. A nuvem é um local de intenso processo
+          de formação de estrelas, com dezenas de objetos jovens e massivos se
+          formando dentro dela. <br /><br />
+          O estudo da Chameleon I pode ajudar os astrônomos a entender melhor
+          como as estrelas se formam a partir de nuvens moleculares e como elas
+          evoluem ao longo do tempo. <br /><br />
+          <span class="fw-medium"
+            >Créditos: NASA, ESA, CSA, and M. Zamani (ESA/Webb)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2303a/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/fD35DVEdxBE', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+
+      <div class="container text-center">
+        <img
+          src="./images/arrowDown.gif"
+          alt="Arrow Down"
+          class="arrowDown2 arrowDown3"
+        />
+      </div>
+    </div>
+
+    <!-- !Container 32 - Urano -->
+    <div class="container-fluid container00 container33" id="19">
+      <div class="container titlePadding">
+        <p
+          class="h5 titleSection text-warning fw-bold t-center2"
+          data-aos="fade-right"
+          data-aos-duration="1200"
+        >
+          URANO
+        </p>
+
+        <p
+          class="h1 shortTitle subTitleSection t-center2"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          Urano é o sétimo planeta do Sistema Solar e é um gigante gasoso com um
+          diâmetro de 50.000 km e uma distância média de 2,8 bilhões de km do
+          Sol. <br /><br />
+          Possui 27 luas conhecidas, algumas das quais foram registradas pela
+          câmera NIRCam do telescópio espacial James Webb. A imagem também
+          capturou algumas galáxias distantes ao fundo, o que pode ajudar a
+          entender a dinâmica do sistema uraniano e oferecer novas informações
+          sobre sua formação e evolução. <br /><br />
+          Embora seja o terceiro maior planeta do Sistema Solar, Urano é pouco
+          explorado e seus ventos extremamente fortes e grande mancha escura
+          ainda são pouco compreendidos pelos cientistas.<br /><br />
+          <span class="fw-medium"
+            >NASA, ESA, CSA, STScI, J. DePasquale (STScI)</span
+          >
+        </p>
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://esawebb.org/images/weic2310c/', '_blank')"
+        >
+          SAIBA MAIS
+        </button>
+
+        <button
+          type="button"
+          class="btn btn-outline-light mt-5 b-center"
+          id="button"
+          onclick="window.open('https://www.youtube.com/embed/SQDhUfpbZ6c', '_blank')"
+        >
+          VÍDEO
+        </button>
+      </div>
+    </div>
+
+
+    <footer class="container-fluid footer">
+      <div class="container text-center">
+        <div class="container">
+          <a href="#TOP" class="btn btn-outline-light mt-5 p-3 text-center">
+            VOLTAR PARA O TOPO</i>
+          </a>
+          <div class="d-flex justify-content-center mt-5 footer-content">
+            <a
+              href="https://instagram.com/guibus_dev"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a
+              href="https://github.com/gui-bus"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gui-bus/"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a
+              href="https://twitter.com/guibus_dev"
+              target="_blank"
+              class="me-4 text-white"
+            >
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="mailto:guibus.dev@gmail.com" class="text-white">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </div>
+          <div class="text-center p-3">
+            &copy; 2023 - Feito por Guilherme Bustamante.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ?Script Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ?Script AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
