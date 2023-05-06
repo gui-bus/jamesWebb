@@ -1,6 +1,8 @@
 # James Webb Space Telescope :artificial_satellite:
 
-![Home](Home.PNG "Imagem da página inicial")
+![Home](Home.JPG "Imagem da página inicial")
+![Órbita](Orbita.JPG "Imagem da página Órbita")
+![Galeria](Galeria.JPG "Imagem da página Galeria")
 
 
 ## Descrição :page_with_curl:
@@ -13,9 +15,11 @@ Veja abaixo algumas de suas características:
 - A página foi criada como parte de um projeto pessoal para apresentar informações relevantes e interessantes sobre o Telescópio Espacial James Webb de uma maneira acessível e intuitiva. Todos os materiais apresentados foram obtidos de fontes confiáveis e atualizadas para garantir a precisão das informações.
 
 ***
-
 ## Como acessar o site? :computer:
-- Para acessar o site online **[clique aqui](https://gui-bus.github.io/jamesWebb/)**.
+
+Para acessar o site **[clique aqui](https://gui-bus.github.io/jamesWebb/)**.
+
+Espero que você goste do projeto e encontre todas as informações que precisa sobre a missão James Webb!
 
 ***
 
@@ -34,15 +38,18 @@ Veja abaixo algumas de suas características:
 
 ## Contribuição :bulb:
 Gostaria de contribuir para o projeto? Fico muito grato pelo interesse!
-- Sinta-se à vontade para entrar em contato comigo através da aba de **[Contato](https://gui-bus.github.io/james-webb/contact.html)** ou pelas minhas redes sociais para enviar suas mensagens, sugestões ou comentários sobre o projeto.
+- Sinta-se à vontade para entrar em contato comigo através das minhas redes sociais para enviar suas mensagens, sugestões ou comentários sobre o projeto.
 
 ***
 
 ## Fontes e agracimentos :handshake:
-- **[NASA](https://www.nasa.gov/)** por fornecer informações sobre a missão James Webb. 
-- **[ESA](https://esawebb.org/)** por fornecer as imagens,vídeos e textos sobre o James Webb.
-- **[OpenAI](https://openai.com/)** por fornecer textos de algumas seçoes do site.
-- **[OneBitCode](https://onebitcode.com/lp/)** por fornecer o conhecimento necessário, por meio do curso FullStack, para a criação do site.
+Gostaria de expressar minha gratidão às seguintes fontes por sua contribuição para a criação deste projeto:
+- A **[NASA](https://www.nasa.gov/)** por fornecer informações valiosas sobre a missão James Webb, que foram fundamentais a criação de conteúdo relevante.
+- A **[ESA](https://esawebb.org/)** por fornecer imagens, vídeos e textos sobre o James Webb, que ajudaram a ilustrar e aprofundar o conteúdo do site.
+- A **[OpenAI](https://openai.com/)** por fornecer textos úteis e informativos para algumas seções do site, o que ajudou a enriquecer o conteúdo.
+- A **[OneBitCode](https://onebitcode.com/lp/)** por fornecer o conhecimento e as habilidades necessárias para a criação do site por meio do curso FullStack. <br><br>
+Muito obrigado! :rocket:
+
 
 ***
 
